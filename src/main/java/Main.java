@@ -1,7 +1,7 @@
 package carInfo;
 
 public class Main {
-public static void main(String[]args) {
+
 public static int LegalCities (CameraInfo [] cameras) {
 
 	boolean flag = true;
