@@ -26,4 +26,23 @@ public static int LegalCities (CameraInfo [] cameras) {
 
 }
 }
+
+package carInfo;
+
+public class CarInfo {
+	
+	private String id;
+	private boolean privateCar;
+	private int speed;
+	
+	public boolean illegal(int maxSpeed) {
+		if((speed>maxSpeed)||(privateCar==true)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+}
+
 	
